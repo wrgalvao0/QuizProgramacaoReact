@@ -1,0 +1,19 @@
+.container-perguntas{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    background-color: transparent;
+}
+.pergunta-tal{
+    margin-top: 20px;
+}
+.opcoes{
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+.opcoes:hover{
+    background-color: #6a2cad;
+    cursor: pointer;
+}

@@ -1,0 +1,33 @@
+.container-principal{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-principal-perguntas{
+    padding: 100px;
+    border-radius: 20px;
+    background-color: #8435dd;
+}
+.titulo{
+    text-align: center;
+}
+.botao-pergunta{
+    padding: 15px;
+    color: white;
+    border: 1px solid white;
+    background-color: #8435dd;
+    border-radius: 20px;
+    width: 100px;
+}
+.botao-pergunta:hover{
+    background-color: #260f41;
+    cursor: pointer;
+}
+.container-botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: transparent;
+}
